@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Signup Modal</title>
+  </head>
+  <body>
+    <div class="auth-modal">
+      <div class="close-icon">X</div>
+      <h2>Sign Up</h2>
+      <p>Signing up means you agree to terms and conditions.</p>
+      <form action="">
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="username"
+        />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="password"
+        />
+        <input
+          type="password"
+          id="password-check"
+          name="password-check"
+          placeholder="confirm password"
+        />
+        <label for="terms">
+          <input type="checkbox" name="terms" id="terms" />
+          I agree to the terms and conditions.
+        </label>
+        <input type="submit" class="form-button" />
+      </form>
+
+      <hr />
+
+      <h2>download the app</h2>
+
+      <div class="link-container">
+        <a href="http://play.google.com/store">
+          <img src="images/download-android.jpg" alt="google play icon" />
+        </a>
+        <a href="https://www.apple.com/store">
+          <img src="images/download-ios.jpg" alt="apple store icon" />
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
